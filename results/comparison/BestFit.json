@@ -1,0 +1,17 @@
+{
+  "Method": "BestFit",
+  "Energy_Wh": 83635.20182291417,
+  "Avg_Power_W": 2007.2448437499402,
+  "Peak_Power_W": 137.975,
+  "Migrations": 0,
+  "SLA_Violations": 0,
+  "Avg_Utilization": 0.0024149479166666664,
+  "Active_Hosts": 20,
+  "Inactive_Hosts": 0,
+  "Carbon_kg": 41.817600911457085,
+  "Migration_Overhead_CpuSec": 0.0,
+  "Steps": 500,
+  "engine": "python_trace_driven",
+  "uses_random_forest": false,
+  "energy_saving_vs_first_fit_pct": 0.0
+}

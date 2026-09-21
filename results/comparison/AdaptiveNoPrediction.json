@@ -1,0 +1,17 @@
+{
+  "Method": "AdaptiveNoPrediction",
+  "Energy_Wh": 21135.201822916555,
+  "Avg_Power_W": 507.24484374999736,
+  "Peak_Power_W": 137.975,
+  "Migrations": 15,
+  "SLA_Violations": 0,
+  "Avg_Utilization": 0.0024149479166666664,
+  "Active_Hosts": 5,
+  "Inactive_Hosts": 15,
+  "Carbon_kg": 10.567600911458278,
+  "Migration_Overhead_CpuSec": 900.0,
+  "Steps": 500,
+  "engine": "python_trace_driven",
+  "uses_random_forest": false,
+  "energy_saving_vs_first_fit_pct": 74.72929895276945
+}

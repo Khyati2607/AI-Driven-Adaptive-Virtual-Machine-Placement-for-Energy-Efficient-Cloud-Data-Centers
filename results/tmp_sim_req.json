@@ -1,0 +1,1 @@
+{"method": "AdaptiveRF", "host_count": 12, "vm_count": 12, "simulation_steps": 40, "workload_intensity": 1.0, "overload_threshold": 0.8, "underload_threshold": 0.3, "migration_cooldown_steps": 8, "migration_margin": 0.05, "carbon_intensity_kg_per_kwh": 0.5, "collect_timeseries": true}

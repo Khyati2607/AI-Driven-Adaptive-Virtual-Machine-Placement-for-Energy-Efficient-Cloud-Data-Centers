@@ -1,0 +1,45 @@
+:root {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: #0f172a;
+  background: #f1f5f9;
+}
+body { margin: 0; }
+.page { max-width: 1200px; margin: 0 auto; padding: 24px; }
+header h1 { margin: 0 0 8px; }
+header p, .hint { color: #475569; }
+.panel, .kpi, .chart-box, .host-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+label { display: flex; flex-direction: column; font-size: 13px; gap: 4px; }
+input, select { padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; }
+.actions, .presets { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+button { border: 1px solid #cbd5e1; background: #fff; border-radius: 8px; padding: 8px 12px; cursor: pointer; }
+button.primary { background: #2563eb; color: #fff; border-color: #2563eb; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+.error { color: #b91c1c; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+.kpi { margin-top: 12px; }
+.kpi span { display: block; font-size: 12px; color: #64748b; }
+.kpi strong { font-size: 20px; }
+.charts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.hosts { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+.host-card h3 { margin: 0 0 4px; font-size: 14px; }
+.host-card.inactive { background: #e2e8f0; color: #64748b; }
+.host-card.overload { border-color: #dc2626; background: #fef2f2; }
+.bar { height: 6px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: #2563eb; }
+.vms { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+.vms span { font-size: 11px; background: #dbeafe; border-radius: 4px; padding: 2px 6px; }
+.events { max-height: 220px; overflow: auto; font-size: 13px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { border-bottom: 1px solid #e2e8f0; padding: 8px; text-align: left; }
+@media (max-width: 800px) { .charts { grid-template-columns: 1fr; } }
