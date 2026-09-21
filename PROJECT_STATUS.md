@@ -1,3 +1,12 @@
+## Reproducibility Notes
+
+The project separates workload prediction, VM placement simulation,
+and result analysis into independent components. Python modules handle
+data preparation and prediction, while the CloudSim Plus module executes
+the VM placement experiments. This structure allows baseline and
+adaptive
+placement policies to be evaluated using a consistent workflow.
+
 # Project Status
 
 **Last updated:** 2026-09-20  
