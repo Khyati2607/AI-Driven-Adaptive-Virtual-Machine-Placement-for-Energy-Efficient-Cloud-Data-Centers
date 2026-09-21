@@ -1,3 +1,11 @@
+/**
+ * Provides the basic CloudSim Plus simulation environment.
+ *
+ * This component initializes the simulation infrastructure required
+ * to create and execute the virtualized data center experiment.
+ */
+
+
 package edu.cloud.vmplacement.simulation;
 
 import org.cloudsimplus.core.CloudSimPlus;
