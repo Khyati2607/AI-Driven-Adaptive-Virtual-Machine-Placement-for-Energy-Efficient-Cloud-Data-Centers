@@ -1,3 +1,10 @@
+"""
+Workload prediction module.
+
+Uses the trained machine learning model to estimate future
+resource demand for adaptive VM placement experiments.
+"""
+
 """Export test-set predictions for CloudSim (VM_ID, timestamp, actual, predicted)."""
 
 from __future__ import annotations
