@@ -1,3 +1,11 @@
+/**
+ * Linear power consumption model for simulated physical hosts.
+ *
+ * Power consumption is estimated from host utilization between
+ * idle and maximum power levels. This model is used to compare
+ * the energy impact of different VM placement strategies.
+ */
+
 package edu.cloud.vmplacement.power;
 
 /**
