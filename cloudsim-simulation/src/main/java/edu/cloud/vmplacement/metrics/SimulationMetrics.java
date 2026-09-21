@@ -1,3 +1,13 @@
+/**
+ * Stores performance metrics collected during VM placement simulation.
+ *
+ * The metrics support comparison of placement policies using energy
+ * consumption, CPU utilization, SLA violations, VM migrations, and
+ * simulation execution time.
+ */
+
+
+
 package edu.cloud.vmplacement.metrics;
 
 import com.google.gson.Gson;
