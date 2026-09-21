@@ -1,4 +1,14 @@
 """
+Preprocessing utilities for workload prediction.
+
+Provides data preparation steps required before training
+the machine learning workload prediction model.
+"""
+
+
+
+
+"""
 Preprocess VM traces: sort by time, lag features, target — per VM (no cross-VM leakage).
 """
 
