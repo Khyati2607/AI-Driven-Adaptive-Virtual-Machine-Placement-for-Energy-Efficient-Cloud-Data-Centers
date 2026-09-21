@@ -1,3 +1,11 @@
+"""
+Dataset loading utility for the VM placement project.
+
+Loads the workload dataset and prepares it for subsequent
+preprocessing and machine learning experiments.
+"""
+
+
 import pandas as pd
 from pathlib import Path
 
