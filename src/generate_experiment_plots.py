@@ -1,3 +1,10 @@
+"""
+Experiment visualization module.
+
+Generates plots for comparing VM placement strategies using
+energy consumption, utilization, migrations, and SLA-related metrics.
+"""
+
 """Plot ML and simulation comparison charts from generated result files only."""
 
 from __future__ import annotations
