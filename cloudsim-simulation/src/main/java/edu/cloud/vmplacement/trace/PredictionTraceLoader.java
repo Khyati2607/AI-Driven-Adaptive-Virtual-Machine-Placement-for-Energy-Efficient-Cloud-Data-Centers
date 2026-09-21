@@ -1,3 +1,11 @@
+/**
+ * Loads workload prediction traces used by the CloudSim simulation.
+ *
+ * The loader converts prediction results into a format that can be
+ * consumed by the adaptive placement policy during VM placement
+ * and rebalancing experiments.
+ */
+
 package edu.cloud.vmplacement.trace;
 
 import java.io.BufferedReader;
