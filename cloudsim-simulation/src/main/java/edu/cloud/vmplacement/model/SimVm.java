@@ -1,3 +1,10 @@
+/**
+ * Represents a virtual machine used in the placement simulation.
+ *
+ * A simulated VM stores its resource requirements and placement
+ * information, allowing different policies to evaluate feasible
+ * host assignments.
+ */
 package edu.cloud.vmplacement.model;
 
 public final class SimVm {
