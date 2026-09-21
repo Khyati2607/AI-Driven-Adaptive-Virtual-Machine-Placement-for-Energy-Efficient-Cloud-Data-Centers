@@ -1,3 +1,11 @@
+"""
+Model evaluation utilities.
+
+Evaluates workload prediction performance using standard
+machine learning evaluation metrics and generated predictions.
+"""
+
+
 """Evaluate Random Forest vs naive persistence on chronological test split."""
 
 from __future__ import annotations
