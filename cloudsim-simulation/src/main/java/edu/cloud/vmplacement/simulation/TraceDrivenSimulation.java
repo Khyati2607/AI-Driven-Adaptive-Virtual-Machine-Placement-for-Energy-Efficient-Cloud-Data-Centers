@@ -1,3 +1,11 @@
+/**
+ * Executes the trace-driven VM placement simulation.
+ *
+ * Workload traces are processed over simulation intervals while
+ * the selected placement policy performs VM placement and
+ * rebalancing. Performance metrics are collected for comparison.
+ */
+
 package edu.cloud.vmplacement.simulation;
 
 import edu.cloud.vmplacement.config.SimulationConfig;
