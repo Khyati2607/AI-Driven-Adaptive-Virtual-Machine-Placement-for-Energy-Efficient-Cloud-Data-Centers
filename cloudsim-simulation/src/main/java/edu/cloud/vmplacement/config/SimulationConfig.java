@@ -1,3 +1,11 @@
+/**
+ * Central configuration for the CloudSim VM placement experiments.
+ *
+ * This class stores simulation parameters such as host resources,
+ * VM resources, workload settings, placement policy options, and
+ * experiment controls so that simulations can be reproduced consistently.
+ */
+
 package edu.cloud.vmplacement.config;
 
 import com.google.gson.FieldNamingPolicy;
