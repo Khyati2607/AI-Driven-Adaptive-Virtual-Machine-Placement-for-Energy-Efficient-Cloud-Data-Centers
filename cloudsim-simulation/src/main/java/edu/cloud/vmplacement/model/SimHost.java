@@ -1,3 +1,12 @@
+/**
+ * Represents a physical host in the VM placement simulation.
+ *
+ * A simulated host maintains its resource capacity, current VM
+ * allocation, active state, and resource utilization information.
+ * These properties are used by placement policies to make hosting
+ * and consolidation decisions.
+ */
+
 package edu.cloud.vmplacement.model;
 
 import edu.cloud.vmplacement.power.LinearPowerModel;
