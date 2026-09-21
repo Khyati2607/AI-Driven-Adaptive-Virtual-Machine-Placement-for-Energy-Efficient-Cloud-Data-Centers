@@ -1,4 +1,12 @@
 package edu.cloud.vmplacement.placement;
+/**
+ * Best Fit baseline for VM placement.
+ *
+ * Each VM is assigned to the feasible active host that leaves the
+ * smallest remaining processing-element (PE) capacity after placement.
+ * This static baseline performs initial placement without dynamic
+ * migration or host consolidation.
+ */
 
 import edu.cloud.vmplacement.model.SimHost;
 import edu.cloud.vmplacement.model.SimVm;
@@ -7,9 +15,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Best Fit (PE): host with smallest remaining PE capacity after placement, among feasible hosts.
- */
 public final class BestFitPlacement implements PlacementPolicy {
 
     @Override
