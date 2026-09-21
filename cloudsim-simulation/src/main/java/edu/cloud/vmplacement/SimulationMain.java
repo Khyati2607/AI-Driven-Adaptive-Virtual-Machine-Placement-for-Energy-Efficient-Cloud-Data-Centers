@@ -1,3 +1,11 @@
+/**
+ * Main entry point for the VM placement simulation.
+ *
+ * The application loads the experiment configuration, selects the
+ * requested placement strategy, executes the simulation, and
+ * produces performance metrics for analysis.
+ */
+
 package edu.cloud.vmplacement;
 
 import edu.cloud.vmplacement.config.SimulationConfig;
