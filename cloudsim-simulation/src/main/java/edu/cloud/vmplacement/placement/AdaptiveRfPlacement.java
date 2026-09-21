@@ -1,3 +1,21 @@
+/**
+ * Adaptive VM placement policy supporting two operating modes:
+ *
+ * 1. AdaptiveRF - uses Random Forest predicted CPU demand for placement decisions.
+ * 2. AdaptiveNoPrediction - uses the current VM CPU demand without prediction.
+ *
+ * The policy handles overloaded hosts through VM migration and consolidates
+ * underloaded hosts to reduce the number of active physical machines.
+ * Migration cooldown and overload margins are used to reduce unnecessary
+ * VM movement and avoid unstable placement decisions.
+ */
+
+
+
+
+
+
+
 package edu.cloud.vmplacement.placement;
 
 import edu.cloud.vmplacement.config.SimulationConfig;
