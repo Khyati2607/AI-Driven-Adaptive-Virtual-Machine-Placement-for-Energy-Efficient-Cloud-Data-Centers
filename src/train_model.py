@@ -1,3 +1,10 @@
+"""
+Machine learning model training module.
+
+Trains the workload prediction model using the prepared
+dataset and stores the resulting model for simulation use.
+"""
+
 """Train Random Forest CPU predictor (chronological per-VM train split)."""
 
 from __future__ import annotations
