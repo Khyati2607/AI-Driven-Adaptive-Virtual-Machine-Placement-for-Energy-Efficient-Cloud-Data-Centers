@@ -1,3 +1,12 @@
+/**
+ * Common interface for VM placement policies.
+ *
+ * Each placement policy defines its name, performs initial VM placement,
+ * and can optionally rebalance VMs during simulation. This interface
+ * allows baseline and adaptive strategies to be evaluated using the
+ * same simulation workflow.
+ */
+
 package edu.cloud.vmplacement.placement;
 
 import edu.cloud.vmplacement.model.SimHost;
